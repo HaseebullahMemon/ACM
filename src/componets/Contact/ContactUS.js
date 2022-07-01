@@ -17,7 +17,9 @@ const ContactUS = () => {
 
     <!-- =======================================Get in touch heading ============================================ --> */}
 
-    <section>
+
+<div style={{display:'flex',flexDirection:'column'}} >
+<section>
       <div className="contact-hd container">
         <h1 >Get in <color className="contact-hd"> touch </color></h1>
         <p>
@@ -30,11 +32,14 @@ const ContactUS = () => {
 
     <!-- ========================================= MAP ============================================ --> */}
 
-    <section  style={{height:'270px'}} >
+    <section  style={{height:'270px',width:'100%',textAlign:'center',position:"relative",top:'50%',left:"-40%", }} >
       <div className="container">
       <GoogleMap/>
       </div>
     </section> 
+</div>
+
+   
 
     {/* <!-- ======================================= MAP END ============================================ -->
 
@@ -90,7 +95,7 @@ const ContactUS = () => {
 
     <!-- ========================================= Footer ============================================ --> */}
 
-    <section>
+    {/* <section>
       <div className="footer">
         <div className="footer-box">
           <p className="footer-mat">Contact Us</p>
@@ -124,13 +129,13 @@ const ContactUS = () => {
           <a href="" className="footer-para">Disclaimer</a> <br />
         </div>
       </div>
-    </section>
+    </section> */}
 {/* 
     <!-- ======================================= Footer End ============================================ -->
 
     <!-- ========================================= Copyright ============================================ --> */}
 
-    <section className="copyright container-fluid">
+    {/* <section className="copyright container-fluid">
       <div className="row1">
         
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -145,7 +150,7 @@ const ContactUS = () => {
           </div>
         
       </div>
-    </section>
+    </section> */}
 
 
 

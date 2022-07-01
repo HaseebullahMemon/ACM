@@ -7,13 +7,11 @@ const GoogleMap = (props) => {
  <Map
         google={props.google}
        zooom={10}
-       style={{width:'85%',height:"270px"}}
+       style={{width:'85%',height:"270px",position:'relative'}}
        initialCenter={
         {lat:24.9404101,
         lng:67.106047}}
-       
        >
-
        </Map>
     </div>
   )

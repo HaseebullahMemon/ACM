@@ -1,38 +1,180 @@
-.App {
+#about>h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #244657;
+  text-transform: uppercase;
+  font-weight: 100;
+
+  line-height: 1.1em;
+
+}
+
+#about>h3 {
+  text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #244657;
+  text-transform: uppercase;
+  font-weight: 100;
+
+  line-height: 1.1em;
+}
+
+.col-md-8{
+  display: grid;
+  grid-template-columns: 1000px 400px;
+
+}
+
+#text-sec {
+  margin-left: 10px;
+}
+
+.about {
+  width: 300px;
+  position: relative;
+  top: 170px;
+  left: -50px;
+}
+
+.txt {
+  text-align: justify;
+  width: 700px;
+}
+
+.about_acm {
+  width: 250px;
+}
+.head{
+  justify-content: center;
+}
+.parent-div{
+  display: grid;
+  grid-template-columns: 250px 270px 500px;
+}
+
+/* .txt{
+  width: 800px;
+} */
+.about1{
+  width: 200px;
+  position: relative;
+  top: 10px;
+}
+.acm-head{
+  width: 700px;
+}
+#about{
+  position: relative;
+  top: 25px;
+
+}
+.about-sec{
+  width: 100%;
+  max-width: 1200px;
+  margin-left: 50px;
+}
+
+/* /* *{
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTACT FORM */
+
+
+.contact-form-main{
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-form-contact-div{
+  margin: 0 auto !important;
+  -ms-transform: translateY(20%);
+   transform: translateY(20%);
+  
+}
+
+.contact-form-input-fields{
+  margin-top: 10px !important;
+  width: 30%;
+}
+
+.contact-form-contact-heading{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-form-submit-btn{
+  margin-top: 30px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 900px) {
+  .contact-form-input-fields{
+      width: 70% !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* CONTACT FORM END */
+
+
+
+*/
+
+
+.navigation-wrap{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.1s ease-out;
+  /* -webkit-transition: all 0.1s ease-out; */
+}
+.navigation-wrap .nav-item{
+  padding: 0 0.625rem;
+  /* transition: all 200ms linear; */
+}
+.navbar-toogle-btn:focus{
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+.nav-link{
+  font-size:0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color: rgb(89, 170, 236);
+}
+.navigation-wrap .main-btn{
+  padding: 0.3125rem 1.475rem;
+  box-shadow: none;
+  margin-left: 0.625rem;
+}
+.navigation-wrap .navbar-brand .nav_img{
+  height: 60px;
+}
+/* #################### change nav bar ############## */
+.navigation-wrap.scroll-on{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background: var(--white-color);
+  box-shadow:  0 0.125rem 1.75rem 0 rgb(0,0,0,0.9); */
+  /* transition: all .15s ease-in-out; */
+}
+.scroll-on{
+  background: #ffffff;
+  box-shadow:  0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+  z-index: 100;
+}
+.active{
+  color: rgb(24, 24, 67) !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

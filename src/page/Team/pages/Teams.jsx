@@ -5,8 +5,7 @@ import DirCards from "../components/DirCards";
 import "../styles/Card.css";
 const Teams = () => {
   return (
-    <div>
-      {/* HEADINGS  */}
+    <div style={{marginTop:'100px'}}>
       <h1
         style={{
           fontSize: "60px",
@@ -29,8 +28,6 @@ const Teams = () => {
       >
         Meet Our Complete Team
       </p>
-
-
       {/* EXECUTIVE BODY  */}
       <h1
         style={{
@@ -47,9 +44,7 @@ const Teams = () => {
       <div style={{ marginTop: "80px" }}>
         <ExCards />
       </div>
-
       {/* DIRECTORATE  */}
-
       <h1
         style={{
           marginTop: "70px",
