@@ -128,22 +128,19 @@
 
 .info img {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 10px;
   color: rgb(252, 255, 253);
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: rgb(38, 15, 106);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
 
-.callme {
-  height: 10%;
-}
 .weare{
   font-size: 10px;
  
@@ -153,12 +150,18 @@
   text-underline-offset: 0.4em;
 }
 .det{
-  font-size: smaller;
+  font-size: 11px;
+  flex-wrap: wrap;
+  color: rgb(1, 1, 159);
+}
+.headd{
+  font-size: 12.5px;
 }
 
 .inputs input {
-  padding-left: 20px;
+  padding-left: 30px;
   width: 100%;
+  margin-top: 70px;
 }
 textarea {
   padding-left: 20px;
@@ -186,6 +189,18 @@ textarea {
 .submitBtn:focus {
   outline: none;
   border: none;
+}
+
+.name-inp{
+  font-size: 13px;
+}
+.email-inp{
+  font-size: 13px;
+}
+.textarea-inp{
+  font-size: 13px;
+  padding-top: 10px;
+  
 }
 
 /*----------------------------------------- Contact Page End -----------------------------------------*/
@@ -253,14 +268,14 @@ textarea {
 
 /* =========================================== Copyright ============================================ */
 
-/* .container-fluid {
+.contd {
   background: linear-gradient(
     184deg,
     rgba(12, 9, 74, 1) 43%,
     rgba(2, 62, 134, 1)
   );
   margin-bottom: -15px;
-} */
+}
 
 .p1 {
   background-color: linear-gradient(

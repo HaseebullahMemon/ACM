@@ -21,11 +21,14 @@ const ContactUS = () => {
 <div style={{display:'flex',flexDirection:'column'}} >
 <section>
       <div className="contact-hd container">
+        <div>
         <h1 >Get in <color className="contact-hd"> touch </color></h1>
         <p>
           We are here for you, Any FAQs then ask us. Our team give you an
           immediate response.
         </p>
+        </div>
+     
       </div>
     </section>
     {/* <!-- ====================================Get in touch heading End============================================ -->
@@ -84,8 +87,10 @@ const ContactUS = () => {
               className="textarea-inp"
               placeholder="Message"
             ></textarea>
-
-            <button className="submitBtn btn btn-primary">Submit</button>
+<div>
+<button className="submitBtn btn btn-primary text-center ">Submit</button>
+</div>
+            
           </div>
         </div>
       </div>

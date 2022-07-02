@@ -54,11 +54,11 @@ const footer = () => {
       
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <center>
-          <p className="p1">
+          <p className="p1 text-muted">
             Copyright © 2022. NEDUET ACM CHAPTER. All rights reserved
           </p>
-          <p className="p2">
-            Developed by <i className="hush">Team Technical</i>
+          <p className="p2 text-muted">
+            Developed by <i className="hush  text-primary">Team Technical</i>
           </p>
         </center>
         </div>

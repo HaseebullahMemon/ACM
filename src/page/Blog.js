@@ -28,7 +28,7 @@ const Blog = () => {
 <div className='container'>
  
 {loading?( <div  style={{marginTop:"150px"}} class="spinner-border text-primary text-center"></div>
-):( <div className="row">
+):( <div className="row mx-5 ">
 
 
 
