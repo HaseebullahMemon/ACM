@@ -1,10 +1,10 @@
-import {Map,GoogleApiWrapper } from 'google-maps-react'
+// import {Map,GoogleApiWrapper } from 'google-maps-react'
 import React from 'react'
 
 const GoogleMap = (props) => {
   return (
     <div>
- <Map
+ {/* <Map
         google={props.google}
        zooom={10}
        style={{width:'85%',height:"270px",position:'relative'}}
@@ -12,11 +12,11 @@ const GoogleMap = (props) => {
         {lat:24.9404101,
         lng:67.106047}}
        >
-       </Map>
+       </Map> */}
     </div>
   )
 }
 
-export default GoogleApiWrapper({
-    apikey:process.env.REACT_APP_GOOGLE_API_KEY,
-})(GoogleMap)
+// export default GoogleApiWrapper({
+//     apikey:process.env.REACT_APP_GOOGLE_API_KEY,
+// })(GoogleMap)

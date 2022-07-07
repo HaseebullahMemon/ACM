@@ -40,7 +40,6 @@ export default function Aboutus() {
     </div>
   </section>
 
- 
 
   <section className='container'>
     <div className="about-pg-boxes2 container-fluid">

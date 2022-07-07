@@ -21,7 +21,8 @@ const Navbar = () => {
 
   })
   return (
-    <div><nav className={`navbar navbar-expand-lg ${scroll||location.pathname!='/'?('navigation-wrap scroll-on'):("navigation-wrap")}`}>
+    <div  style={{width:"100%"}}>
+      <nav className={`navbar navbar-expand-lg ${scroll||location.pathname!='/'?('navigation-wrap scroll-on'):("navigation-wrap")}`}>
     <div className="container">
       <a className="navbar-brand" href="#"><img src={logo} alt="" className='nav_img'  /></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

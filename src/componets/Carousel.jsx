@@ -5,7 +5,10 @@ import '.././App.css';
 
 export default function Carousel() {
   return (
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+
+    <section className='carousel_section' >
+       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
       aria-current="true" aria-label="Slide 1"></button>
@@ -52,5 +55,7 @@ export default function Carousel() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+    </section>
+ 
   )
 }
