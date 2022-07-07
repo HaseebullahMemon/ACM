@@ -19,8 +19,8 @@ function App() {
     <Routes>
 <Route  path='/' element={<Home/>} />
 <Route path='/blog' element={<Blog/>} />
-<Route path='/blog/:id' element={<Blog/>} />
-<Route path='/team' element={<Team/>} />
+{/* <Route path='/blog/:id' element={<Blog/>} />
+<Route path='/team' element={<Team/>} /> */}
     </Routes>
     <Footer/>
     </>

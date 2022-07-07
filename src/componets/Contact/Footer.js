@@ -3,6 +3,7 @@ import './Css/style.css'
 import instra from './images/instagram.png'
 import facebook from './images/facebook.png'
 import linken from './images/linkedin.png'
+import {Link}from 'react-router-dom'
 // import mail from './images/mail.png'
 // import location from './images/location.png'
 // import phone from './images/phone.png'
@@ -28,20 +29,20 @@ const footer = () => {
       </div>
       <div className="footer-box">
         <p className="footer-mat">Information  Quick Access</p>
-        <a href="index.html" className="footer-para">Home</a> <br />
-        <a href="about.html" className="footer-para"> About ACM</a> <br />
-        <a href="#latest" className="footer-para">Team Mmbers</a> <br />
-        <a href="products.html" className="footer-para">Join Us</a> <br />
-        <a href="contact.html" className="footer-para">Contact Details</a> <br />
+        <Link to='/' className="footer-para">Home</Link> <br />
+        {/* <a href="about.html" className="footer-para"> About ACM</a> <br />
+        <a href="#latest" className="footer-para">Team Mmbers</a> <br /> */}
+        <Link to='/blog' className="footer-para">Blogs</Link> <br />
+        <Link to='/' className="footer-para">Contact Details</Link> <br />
       </div>
-      <div className="footer-box">
+      {/* <div className="footer-box">
         <p className="footer-mat">Organization</p>
         <a href="" className="footer-para">Privacy Policy</a>
         <a href="" className="footer-para"> </a> <br />
         <a href="" className="footer-para"> Terms  Conditions</a> <br />
         <a href="" className="footer-para"> FAQs</a> <br />
         <a href="" className="footer-para">Disclaimer</a> <br />
-      </div>
+      </div> */}
     </div>
   </section>
 {/* 

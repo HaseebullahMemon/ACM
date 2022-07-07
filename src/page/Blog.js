@@ -8,10 +8,11 @@ const Blog = () => {
     useEffect(()=>{
         client.getEntries().then((res)=>{
              SetArticles(res.items)
+             SetLoading(false)  
         }).catch((err)=>{
             console.log(err)
         })
-  SetLoading(false)        
+      
 
     },[])    
   return (

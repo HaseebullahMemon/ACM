@@ -9,8 +9,11 @@
 
 }
 .carousel_section{
-  width: 100%;
-  
+  position: relative; 
+}
+.carousel_section_center{
+  position: absolute;
+  top: 50%;
 }
 
 
@@ -154,9 +157,19 @@ margin-top: 10px;
     padding: 0 40px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .content{
     padding: 0 30px;
+  }
+  .carousel_section{
+    position: relative; 
+    margin-top: 70px;
+  }
+  .carousel_section h2{
+    font-size: 20px;
+  }
+  .carousel_section p{
+    font-size: 10px;
   }
 }
 @media (max-width: 868px) {

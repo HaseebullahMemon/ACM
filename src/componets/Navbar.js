@@ -33,9 +33,9 @@ const Navbar = () => {
           <li className="nav-item">
             <Link className={location.pathname=='/'?'nav-link active':'nav-link'} aria-current="page" to='/'>Home</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className={ location.pathname=='/team'?'nav-link active':'nav-link'} to='/team'>Team</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className={ location.pathname=='/blog'?'nav-link active':'nav-link'} to='/blog'>Blog</Link>
           </li>
