@@ -59,7 +59,7 @@ console.log(res.text)
             <span
             ><img className="callme" src={phone} alt="" />
               <h4>Call:</h4>
-              <p>+92 308 2931010</p>
+              {/* <p>+92 308 2931010</p> */}
             </span>
           </div>
           <div className="inputs col-sm-12 col-md-7 col-lg-7 col-xl-7">
