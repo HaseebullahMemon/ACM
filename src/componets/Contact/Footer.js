@@ -12,7 +12,7 @@ const footer = () => {
       <div className="footer-box">
         <p className="footer-mat">Contact Us</p>
         <p className="footer-para"><b>Email: </b> acmneduet@gmail.com</p>
-        <p className="footer-para"><b>Phone:</b> +923021215250</p>
+        <p className="footer-para"><b>Phone:</b> +92 308 2931010</p>
         <a href="https://web.facebook.com/ned.acm/?_rdc=1_rdr"  target='_blank'
           ><img src={facebook} height="20px" width="20px"
         /></a>

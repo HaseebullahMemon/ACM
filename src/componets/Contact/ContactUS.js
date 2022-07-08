@@ -1,14 +1,9 @@
 import React from 'react'
 import './Css/style.css'
-import instra from './images/instagram.png'
-import facebook from './images/facebook.png'
-import linken from './images/linkedin.png'
 import mail from './images/mail.png'
 import location from './images/location.png'
 import emailjs from 'emailjs-com'
 import phone from './images/phone.png'
-import GoogleMap from './GoogleMap'
-
 const ContactUS = () => {
 
   const SendEmail = (e) => {
@@ -41,25 +36,7 @@ console.log(res.text)
 
         </div>
       </section>
-      {/* <!-- ====================================Get in touch heading End============================================ -->
-
-    <!-- ========================================= MAP ============================================ --> */}
-
-      {/* <section  style={{height:'270px',width:'100%',textAlign:'center',position:"relative",top:'50%',left:"-40%", }} >
-      <div className="container">
-      <GoogleMap/>
-      </div>
-    </section>  */}
     </div>
-
-
-
-    {/* <!-- ======================================= MAP END ============================================ -->
-
-    <!-- "border:0; width: 100%; height: 270px;" -->
-    <!-- ========================================= Contact Form ============================================ --> */}
-
-
     <section>
       <div className="contact-form container">
         <div className="row">
@@ -82,7 +59,7 @@ console.log(res.text)
             <span
             ><img className="callme" src={phone} alt="" />
               <h4>Call:</h4>
-              <p>+923021215250</p>
+              <p>+92 308 2931010</p>
             </span>
           </div>
           <div className="inputs col-sm-12 col-md-7 col-lg-7 col-xl-7">
@@ -92,12 +69,12 @@ console.log(res.text)
               <input type="text" name='name' className="name-inp" placeholder="Your Name" required />
               <input type="email" name='email' className="email-inp" placeholder="Your Email" required />
               <br />
-              <input type="text" name='subject' className="sub-inp" placeholder="Subject" required /> <br />
+              <input type="text" name='subject' className="email-inp" placeholder="Subject" required /> <br />
               <textarea
                 name="message"
                 cols="30"
                 rows="5"
-                className="textarea-inp"
+                className="textarea-inp"              
                 placeholder="message"
                 required
               ></textarea>
