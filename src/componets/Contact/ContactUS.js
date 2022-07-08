@@ -13,7 +13,7 @@ const ContactUS = () => {
 
   const SendEmail = (e) => {
     e.preventDefault()
-    emailjs.sendForm("service_1aokfrh","template_u0h2k5l",e.target,"-xx5_kCJruiP-PbPt").then((res)=>{
+    emailjs.sendForm("service_1aokfrh","template_cdig3pj",e.target,"-xx5_kCJruiP-PbPt").then((res)=>{
 console.log(res.text)
     })  
   }
@@ -75,14 +75,14 @@ console.log(res.text)
             <span
             ><img className="callme" src={mail} alt="" />
               <h4>Email:</h4>
-              <p>info@neduet.acm.org/</p>
+              <p>acmneduet@gmail.com</p>
               <p></p
               ></span>
 
             <span
             ><img className="callme" src={phone} alt="" />
               <h4>Call:</h4>
-              <p>922199261261-8 ext. 2503</p>
+              <p>+923021215250</p>
             </span>
           </div>
           <div className="inputs col-sm-12 col-md-7 col-lg-7 col-xl-7">
@@ -94,12 +94,11 @@ console.log(res.text)
               <br />
               <input type="text" name='subject' className="sub-inp" placeholder="Subject" required /> <br />
               <textarea
-                name="massage"
-                id=""
+                name="message"
                 cols="30"
                 rows="5"
                 className="textarea-inp"
-                placeholder="Message"
+                placeholder="message"
                 required
               ></textarea>
               <div>

@@ -1,7 +1,9 @@
 import React from 'react';
 import '.././App.css';
 import {Link}from 'react-router-dom'
-
+import Image1 from './image/image1.jpg'
+import Image2 from './image/image2.jpg'
+import Image3 from './image/image3.jpg'
 
 
 export default function Carousel() {
@@ -19,8 +21,9 @@ export default function Carousel() {
       aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="https://source.unsplash.com/1400x400/?code,program" className="d-block w-100" alt="..."/>
+    <div className="carousel-item active pickgradient">
+      {/* <img src="https://source.unsplash.com/1400x400/?code,program" className="d-block w-100" alt="..."/> */}
+      <img src={Image1} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block  carousel_section_center ">
         <h2>Welcome to ACM </h2>
         <p>Technology , Web Development, Artifical Intelligence</p>
@@ -29,8 +32,9 @@ export default function Carousel() {
 
       </div>
     </div>
-    <div className="carousel-item">
-      <img src="https://source.unsplash.com/1400x400/?code,technology " className="d-block w-100" alt="..."/>
+    <div className="carousel-item pickgradient">
+      {/* <img src="https://source.unsplash.com/1400x400/?code,technology " className="d-block w-100" alt="..."/> */}
+      <img   src={Image2} className="d-block w-100 " alt="..."/>
       <div className="carousel-caption d-none d-md-block carousel_section_center">
         <h2>The Best Coding Blog</h2>
         <p>Technology , Web Development and trends</p>
@@ -38,8 +42,9 @@ export default function Carousel() {
 
       </div>
     </div>
-    <div className="carousel-item">
-      <img src="https://source.unsplash.com/1400x400/?desktop,laptop" className="d-block w-100" alt="..."/>
+    <div className="carousel-item pickgradient">
+      {/* <img src="https://source.unsplash.com/1400x400/?desktop,laptop" className="d-block w-100" alt="..."/> */}
+      <img src={Image3} className="d-block w-100 " alt="..."/>
       <div className="carousel-caption d-none d-md-block carousel_section_center">
         <h2>Award Winning Blog</h2>
         <p>Technology , Web Development and trends</p>

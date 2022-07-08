@@ -15,7 +15,10 @@
   position: absolute;
   top: 50%;
 }
-
+.pickgradient img{
+  height: 500px;
+  width: auto;
+}
 
 #about>h3 {
   text-align: center;
@@ -156,6 +159,10 @@ margin-top: 10px;
   .content{
     padding: 0 40px;
   }
+  .pickgradient img{
+    height: 300px;
+    width: auto;
+  }
 }
 @media (max-width: 992px) {
   .content{
@@ -165,6 +172,11 @@ margin-top: 10px;
     position: relative; 
     margin-top: 70px;
   }
+  .pickgradient img{
+    height: 200px;
+    width: auto;
+  }
+  
   .carousel_section h2{
     font-size: 20px;
   }
@@ -184,6 +196,11 @@ margin-top: 10px;
   .icon.hide{
     display: none;
   }
+  .pickgradient img{
+    height: 200px;
+    width: auto;
+  }
+  
  
 }
 @media (max-width: 769px) {
@@ -191,7 +208,6 @@ margin-top: 10px;
     width: 100%;
     max-width: 765px;
     margin: auto;
-
   }
 
    
