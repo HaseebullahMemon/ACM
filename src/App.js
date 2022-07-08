@@ -3,7 +3,7 @@ import {Routes,Route}from 'react-router-dom'
 import Home from './page/Home';
 import Blog from './page/Blog';
 import Team from './page/Team/pages/Teams';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import Navbar from './componets/Navbar';
 import Footer from  './componets/Contact/Footer'

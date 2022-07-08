@@ -82,7 +82,7 @@
 }
 .contactSlider h1 {
   padding-top: 40vh;
-  font-family: "Style Script", cursive;
+  font-family: "Style Script", "cursive";
   color: white;
   font-size: 8vh;
   letter-spacing: 1mm;
