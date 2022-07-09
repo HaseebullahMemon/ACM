@@ -1,5 +1,8 @@
 import React from 'react'
-
+const JobFair=[
+  {id:7,
+    image:'images/competation/image_7.png'},
+]
 const Competation=[
   {id:1,
   image:'images/competation/image_1.png'},
@@ -13,8 +16,6 @@ const Competation=[
   image:'images/competation/image_5.png'},
   {id:6,
   image:'images/competation/image_6.png'},
-  {id:7,
-  image:'images/competation/image_7.png'},
   {id:8,
   image:'images/competation/image_8.png'},
   {id:9,
@@ -56,7 +57,7 @@ const Itec = () => {
         
          <div>
     <section id="home">
-  <div className="container-fluid px-0 top-banner">
+  <div className="container-fluid w-100 top-banner">
   <div className="container">
       <div className="row">
   <div className="col-lg-5 col-md-6">
@@ -75,13 +76,41 @@ const Itec = () => {
 
 
   <div className='sponsor_section mt-5 '>
-  <h1 className='text-center' >Competation</h1>
+  <h1 className='text-center' >Job Fair</h1>
+<div className="row">
+{JobFair.map((ele)=>{
+return(
+ <div key={ele.id} className="col-lg-5 col-md-10 col-sm-10 offset-md-1">
+ <div className="card mt-5 p-3 mx-auto manon ">
+  <img src={ele.image} className="card-img-top" alt="..."/>
+
+</div>
+  </div>
+
+
+)
+})}
+ 
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+  <div className='sponsor_section mt-5 '>
+  <h1 className='text-center' >Competition</h1>
 <div className="row">
 {Competation.map((ele)=>{
 return(
- <div className="col-lg-5 col-md-10 col-sm-5 offset-lg-1">
- <div class="card mt-5 p-3 mx-auto" style={{width: "30rem"}}>
-  <img src={ele.image} class="card-img-top" alt="..."/>
+ <div key={ele.id} className="col-lg-5 col-md-10 col-sm-10 offset-md-1">
+ <div className="card mt-5 p-3 mx-auto manon ">
+  <img src={ele.image} className="card-img-top" alt="..."/>
 <div className='text-center'>
 <a  className='main-btn text-decoration-none' href='https://forms.gle/sTNfdyiKaqm8WruS8'  target='_blank'> Register Now </a>
 </div>
@@ -106,14 +135,15 @@ return(
 
 
 
-<div className='sponsor_section mt-5'>
+
+<div className='sponsor_section mt-5 w-100'>
   <h1 className='text-center' >Sponsors</h1>
 <div className="row">
 {Sponsors.map((ele)=>{
 return(
  <div className="col-lg-2 col-md-4 col-sm-6">
- <div class="card border-0 mx-auto " style={{width: "12rem"}}>
-  <img src={ele.image} class="card-img-top" alt="..."/>
+ <div className="card border-0 mx-auto " style={{width: "12rem"}}>
+  <img src={ele.image} className="card-img-top" alt="..."/>
   <p className='text-danger' >{ele.category}</p>
   
 </div>
