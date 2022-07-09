@@ -275,3 +275,30 @@ margin-top: 10px;
 .active{
   color: rgb(24, 24, 67) !important;
 }
+.top-banner{
+  width: 100%;
+  background: url(./page/image/itec_2022.jpg) center no-repeat;
+  background-size: cover;
+  padding: 10.875rem 0 9.375rem
+}
+
+
+
+@media (max-width:991px) {
+  .text-content{
+    width: 100%;
+  }
+  .top-banner{
+    padding:9.3rem  0 9.3rem ;
+  }
+}
+@media (max-width:767px) {
+  h1{
+    font-size: 2.8rem;
+  }
+  h2{
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+  
+}
