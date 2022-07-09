@@ -24,7 +24,7 @@ const Navbar = () => {
     <div  style={{width:"100%"}}>
       <nav className={`navbar navbar-expand-lg ${scroll||location.pathname!='/'?('navigation-wrap scroll-on'):("navigation-wrap")}`}>
     <div className="container">
-      <a className="navbar-brand" href="#"><img src={logo} alt="" className='nav_img'  /></a>
+      <Link className="navbar-brand" to='/'><img src={logo} alt="" className='nav_img'  /></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i className="fa-solid fa-bars-staggered navbar-toogle-btn text-primary "></i>
       </button>
@@ -37,15 +37,11 @@ const Navbar = () => {
             <Link className={ location.pathname=='/team'?'nav-link active':'nav-link'} to='/team'>Team</Link>
           </li> */}
           <li className="nav-item">
+            <Link className={ location.pathname=='/itec'?'nav-link active':'nav-link'} to='/itec'>Itec</Link>
+          </li>
+          <li className="nav-item">
             <Link className={ location.pathname=='/blog'?'nav-link active':'nav-link'} to='/blog'>Blog</Link>
           </li>
-          
-        
-          {/* <li className="nav-item">
-           <button className='main-btn'>0302-1215250</button>
-          </li> */}
-  
-         
         </ul>
       </div>
     </div>
