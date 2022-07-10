@@ -1,4 +1,4 @@
-/* body{
+body{
     margin: 0;
     padding: 0;
     
@@ -6,7 +6,7 @@
     font-family: sans-serif;
   }
   
-  .card{
+  .card_team{
     position: relative;
     width: 300px;
     height: 350px;
@@ -15,8 +15,8 @@
     border-radius: 4px;
     box-shadow:0 2px 10px rgba(0,0,0,.2);
   }
-  .card:before,
-  .card:after
+  .card_team:before,
+  .card_team:after
   {
     content:"";
     position: absolute;
@@ -29,15 +29,15 @@
     transition: 0.5s;
     z-index:-1;
   }
-  .card:hover:before{
+  .card_team:hover:before{
   transform: rotate(20deg);
   box-shadow: 0 2px 20px rgba(0,0,0,.2);
   }
-  .card:hover:after{
+  .card_team:hover:after{
   transform: rotate(10deg);
   box-shadow: 0 2px 20px rgba(0,0,0,.2);
   }
-  .card .imgBx{
+  .card_team .imgBx{
   position: absolute;
   top: 10px;
   left: 10px;
@@ -48,12 +48,12 @@
   z-index: 1;
   }
   
-  .card:hover .imgBx
+  .card_team:hover .imgBx
   {
     bottom: 80px;
   }
 
-  .card .imgBx img{
+  .card_team .imgBx img{
       position: absolute;
       top: 0;
       left: 0;
@@ -62,7 +62,7 @@
       object-fit: cover;
   }
 
-  .card .details{
+  .card_team .details{
       position: absolute;
       left: 10px;
       right: 10px;
@@ -71,7 +71,7 @@
       text-align: center;
   }
 
-  .card .details h2{
+  .card_team .details h2{
    margin: 0;
    padding: 0;
    font-weight: 600;
@@ -80,7 +80,7 @@
    text-transform: uppercase;
   } 
 
-  .card .details h2 span{
+  .card_team .details h2 span{
   font-weight: 500;
   font-size: 16px;
   color: #f38695;
@@ -95,4 +95,4 @@
   flex-wrap: wrap !important;
   justify-content: space-evenly;
   align-items: center;
-   } */
+   }

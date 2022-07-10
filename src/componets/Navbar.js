@@ -33,11 +33,11 @@ const Navbar = () => {
           <li className="nav-item">
             <Link className={location.pathname=='/'?'nav-link active':'nav-link'} aria-current="page" to='/'>Home</Link>
           </li>
-          {/* <li className="nav-item">
-            <Link className={ location.pathname=='/team'?'nav-link active':'nav-link'} to='/team'>Team</Link>
-          </li> */}
           <li className="nav-item">
-            <Link className={ location.pathname=='/itec'?'nav-link active':'nav-link'} to='/itec'>Itec</Link>
+            <Link className={ location.pathname=='/team'?'nav-link active':'nav-link'} to='/team'>Team</Link>
+          </li>
+          <li className="nav-item">
+            <Link className={ location.pathname=='/itec'?'nav-link active':'nav-link'} to='/itec'>ITEC</Link>
           </li>
           <li className="nav-item">
             <Link className={ location.pathname=='/blog'?'nav-link active':'nav-link'} to='/blog'>Blog</Link>

@@ -27,8 +27,9 @@ const footer = () => {
       <div className="footer-box">
         <p className="footer-mat">Information  Quick Access</p>
         <Link to='/' className="footer-para">Home</Link> <br />
+        <Link to='/team' className="footer-para">Team</Link> <br />
         
-        <Link to='/itec' className="footer-para">Itec</Link> <br />
+        <Link to='/itec' className="footer-para">ITEC</Link> <br />
         <Link to='/blog' className="footer-para">Blogs</Link> <br />
         <Link to='/' className="footer-para">Contact Details</Link> <br />
       </div>

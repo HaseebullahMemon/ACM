@@ -1,7 +1,5 @@
 import React from "react";
 import ExCards from "../components/ExCards";
-import DirCards from "../components/DirCards";
-// import ExCard from "../components/SingleCard";
 import "../styles/Card.css";
 const Teams = () => {
   return (
@@ -18,7 +16,7 @@ const Teams = () => {
       </h1>
       <p
         style={{
-          marginTop: "-30px",
+          marginTop: "30px",
           fontSize: "20px",
           textAlign: "center",
           color: "#000",
@@ -45,7 +43,7 @@ const Teams = () => {
         <ExCards />
       </div>
       {/* DIRECTORATE  */}
-      <h1
+      {/* <h1
         style={{
           marginTop: "70px",
           fontSize: "40px",
@@ -59,7 +57,7 @@ const Teams = () => {
 
       <div style={{ marginTop: "80px" }}>
         <DirCards />
-      </div>
+      </div> */}
     </div>
   );
 };
